@@ -11,8 +11,7 @@ def home():
 @app.get("/reciepes")
 def get_reciepes():
     return {"reciepes" :[{
-                            "id":1,
-                            "title":"chicken"
+                            "id":1,                       "title":"chicken"
                             },
                             {
                             "id":2,
